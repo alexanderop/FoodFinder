@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "688223949938",
+    "firebase_url": "https://fir-95090.firebaseio.com",
+    "project_id": "fir-95090",
+    "storage_bucket": "fir-95090.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:688223949938:android:4f24b740a1d3a4c6",
+        "android_client_info": {
+          "package_name": "com.example.alex.foodfinder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "688223949938-cbfqoa3nd0d6gvfltnuuvg1m3jg5v848.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.alex.foodfinder",
+            "certificate_hash": "8c115099516170fd12c3d3d07e696032ce4416f3"
+          }
+        },
+        {
+          "client_id": "688223949938-pkqfpn095rmj8shj0ld6b4cpmsfg8r8n.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "688223949938-pkqfpn095rmj8shj0ld6b4cpmsfg8r8n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDD5oS-88LMRmmZpWlRyHWxijZRfYc4LJ0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "688223949938-pkqfpn095rmj8shj0ld6b4cpmsfg8r8n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

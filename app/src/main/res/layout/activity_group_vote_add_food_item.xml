@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Controller.AddFoodItemActivity"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/add_new_food_item"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20sp"
+        android:layout_margin="10sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60sp"
+        android:layout_margin="10sp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/nameTextView"
+            android:layout_width="100sp"
+            android:layout_height="match_parent"
+            android:text="@string/nameLabel"
+            android:textSize="20sp"
+            android:textAlignment="gravity"
+            android:gravity="center" />
+
+        <EditText
+            android:id="@+id/nameEditText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60sp"
+        android:layout_margin="10sp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/detailsTextView"
+            android:layout_width="100sp"
+            android:layout_height="match_parent"
+            android:text="@string/detailsLabel"
+            android:textSize="20sp"
+            android:textAlignment="gravity"
+            android:gravity="center" />
+
+        <EditText
+            android:id="@+id/detailsEditText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60sp"
+        android:layout_margin="10sp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/addressTextView"
+            android:layout_width="100sp"
+            android:layout_height="match_parent"
+            android:text="@string/addressLabel"
+            android:textSize="20sp"
+            android:textAlignment="gravity"
+            android:gravity="center" />
+
+        <EditText
+            android:id="@+id/addressEditText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60sp"
+        android:layout_margin="10sp"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/sendButton"
+            android:layout_width="120sp"
+            android:layout_height="60sp"
+            android:text="add" />
+
+        <ImageButton
+            android:id="@+id/mapsButton"
+            android:layout_width="60sp"
+            android:layout_height="60sp"
+            android:src="@drawable/baseline_map_black_24dp" />
+    </LinearLayout>
+
+</LinearLayout>

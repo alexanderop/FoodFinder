@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.alex.foodfinder">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/foodfinder_logo_notext"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/foodfinder_logo_notext"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Controller.StartActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Controller.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Controller.Group.GroupActivity" />
+        <activity android:name=".Controller.Group.GroupAddActivity" />
+        <activity android:name=".Controller.VoteActivity" />
+        <activity
+            android:name=".Controller.AddFoodItemActivity"
+            android:parentActivityName=".Controller.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Controller.FoodItemListActivity" />
+        <activity android:name=".Controller.FoodItemDetailViewActivity" />
+        <activity android:name=".Controller.Group.GroupDetailActivity" />
+        <activity android:name=".Controller.Group.GroupVoteActivity" />
+        <activity android:name=".Controller.Group.GroupVoteAddFoodItemActivity" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyDcLNOab2r9x7xixfkYP5ZbkWOmJGg3mvQ" />
+
+    </application>
+
+</manifest>

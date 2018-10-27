@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Controller.VoteActivity">
+
+    <Spinner
+        android:id="@+id/groupSpinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10sp"
+        android:visibility="gone" />
+
+    <ListView
+        android:id="@+id/foodItemListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/addFoodItemButton"
+        android:layout_alignParentTop="true"
+        android:layout_below="@id/groupSpinner" />
+
+    <ImageButton
+        android:id="@+id/addFoodItemButton"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10sp"
+        android:src="@drawable/baseline_add_black_24dp" />
+
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10sp"
+        android:layout_toRightOf="@id/addFoodItemButton"
+        android:text="Submit" />
+
+    <Button
+        android:id="@+id/homeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10sp"
+        android:layout_toLeftOf="@id/addFoodItemButton"
+        android:text="Home" />
+
+</RelativeLayout>

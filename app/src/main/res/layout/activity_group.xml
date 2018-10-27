@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="5"
+    android:orientation="vertical"
+    tools:context=".Controller.Group.GroupActivity">
+
+    <ListView
+        android:id="@+id/listViewGroups"
+        android:layout_width="368dp"
+        android:layout_height="393dp"
+        android:layout_weight="4"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp" />
+
+    <Button
+        android:id="@+id/make_new_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/action_make_new_group"
+        android:layout_weight="1"
+        tools:layout_editor_absoluteX="125dp"
+        tools:layout_editor_absoluteY="409dp" />
+
+
+</LinearLayout>
